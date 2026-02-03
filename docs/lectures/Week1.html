@@ -627,7 +627,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     const ipynb = path.replace(".html", ".ipynb");
 
     try {
-      // Check if the notebook file exists
       const response = await fetch(ipynb, { method: "HEAD" });
 
       if (response.ok) {
@@ -636,22 +635,25 @@ document.addEventListener("DOMContentLoaded", async function () {
         const btn = document.createElement("a");
         btn.href = ipynb;
         btn.textContent = "⬇️ Download Notebook";
-        btn.className = "btn btn-primary";
+        btn.className = "btn btn-sm btn-outline-primary";
         btn.setAttribute("download", filename);
 
-        btn.style.position = "fixed";
-        btn.style.top = "20px";
-        btn.style.right = "20px";
-        btn.style.zIndex = "1000";
+        // Find Quarto page header
+        const header = document.querySelector(".quarto-title-block");
 
-        document.body.appendChild(btn);
+        if (header) {
+          const container = document.createElement("div");
+          container.style.textAlign = "right";
+          container.style.marginTop = "-10px";
+          container.appendChild(btn);
+          header.appendChild(container);
+        }
       }
-    } catch (e) {
-      // Do nothing if file doesn't exist
-    }
+    } catch (e) {}
   }
 });
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
