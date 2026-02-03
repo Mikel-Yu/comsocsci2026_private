@@ -638,6 +638,22 @@ If you work this way, LLMs can be a powerful learning tool. If you don’t, they
 </section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const path = window.location.pathname;
+  if (path.endsWith(".html")) {
+    const ipynb = path.replace(".html", ".ipynb");
+    const btn = document.createElement("a");
+    btn.href = ipynb;
+    btn.textContent = "⬇️ Download Notebook";
+    btn.className = "btn btn-primary";
+    btn.style.position = "fixed";
+    btn.style.top = "20px";
+    btn.style.right = "20px";
+    document.body.appendChild(btn);
+  }
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

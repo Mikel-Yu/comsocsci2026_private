@@ -115,7 +115,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar docked fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -383,19 +383,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#part-1-intro-to-computational-social-science" id="toc-part-1-intro-to-computational-social-science" class="nav-link" data-scroll-target="#part-1-intro-to-computational-social-science">Part 1: Intro to Computational Social Science</a></li>
-  <li><a href="#part-2-a-topic-we-will-work-on-for-the-rest-of-this-course" id="toc-part-2-a-topic-we-will-work-on-for-the-rest-of-this-course" class="nav-link" data-scroll-target="#part-2-a-topic-we-will-work-on-for-the-rest-of-this-course">Part 2 : A topic we will work on for the rest of this course</a></li>
-  <li><a href="#prelude-to-part-3-basic-html" id="toc-prelude-to-part-3-basic-html" class="nav-link" data-scroll-target="#prelude-to-part-3-basic-html">Prelude to part 3: Basic HTML</a></li>
-  <li><a href="#part-3-using-web-scraping-to-gather-data." id="toc-part-3-using-web-scraping-to-gather-data." class="nav-link" data-scroll-target="#part-3-using-web-scraping-to-gather-data.">Part 3: Using web-scraping to gather data.</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -631,6 +619,22 @@ LLMs will likely not be able to solve this exercise correctly on their own (I te
 </section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const path = window.location.pathname;
+  if (path.endsWith(".html")) {
+    const ipynb = path.replace(".html", ".ipynb");
+    const btn = document.createElement("a");
+    btn.href = ipynb;
+    btn.textContent = "⬇️ Download Notebook";
+    btn.className = "btn btn-primary";
+    btn.style.position = "fixed";
+    btn.style.top = "20px";
+    btn.style.right = "20px";
+    document.body.appendChild(btn);
+  }
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
