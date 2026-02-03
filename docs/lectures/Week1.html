@@ -620,25 +620,35 @@ LLMs will likely not be able to solve this exercise correctly on their own (I te
 
 </main> <!-- /main -->
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
   const path = window.location.pathname;
 
   if (path.endsWith(".html")) {
     const ipynb = path.replace(".html", ".ipynb");
-    const filename = ipynb.split("/").pop();
 
-    const btn = document.createElement("a");
-    btn.href = ipynb;
-    btn.textContent = "⬇️ Download Notebook";
-    btn.className = "btn btn-primary";
-    btn.setAttribute("download", filename);   // ← THIS forces download
+    try {
+      // Check if the notebook file exists
+      const response = await fetch(ipynb, { method: "HEAD" });
 
-    btn.style.position = "fixed";
-    btn.style.top = "20px";
-    btn.style.right = "20px";
-    btn.style.zIndex = "1000";
+      if (response.ok) {
+        const filename = ipynb.split("/").pop();
 
-    document.body.appendChild(btn);
+        const btn = document.createElement("a");
+        btn.href = ipynb;
+        btn.textContent = "⬇️ Download Notebook";
+        btn.className = "btn btn-primary";
+        btn.setAttribute("download", filename);
+
+        btn.style.position = "fixed";
+        btn.style.top = "20px";
+        btn.style.right = "20px";
+        btn.style.zIndex = "1000";
+
+        document.body.appendChild(btn);
+      }
+    } catch (e) {
+      // Do nothing if file doesn't exist
+    }
   }
 });
 </script>
