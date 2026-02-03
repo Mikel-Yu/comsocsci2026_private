@@ -6,3 +6,37 @@
 main.content {
   margin-left: 80px !important;
 }
+
+
+
+
+
+/* Exercise-style blockquotes */
+blockquote {
+  border-left: 4px solid #5b2ca0;   /* DTU-ish purple accent */
+  background: #f9f7fc;             /* very light neutral lavender, NOT pink */
+  padding: 16px 18px;
+  margin: 18px 0;
+  border-radius: 8px;
+}
+
+/* Ensure normal text color */
+blockquote,
+blockquote p,
+blockquote li {
+  color: #222 !important;          /* same dark text as body */
+}
+
+/* Make the exercise title line stand out slightly */
+blockquote p:first-child strong {
+  font-size: 1.05rem;
+  color: #4b1f7a;                  /* slightly deeper purple for title only */
+}
+
+/* Clean spacing for lists inside exercises */
+blockquote ul,
+blockquote ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
