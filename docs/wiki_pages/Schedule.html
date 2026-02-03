@@ -536,15 +536,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const path = window.location.pathname;
+
   if (path.endsWith(".html")) {
     const ipynb = path.replace(".html", ".ipynb");
+    const filename = ipynb.split("/").pop();
+
     const btn = document.createElement("a");
     btn.href = ipynb;
     btn.textContent = "⬇️ Download Notebook";
     btn.className = "btn btn-primary";
+    btn.setAttribute("download", filename);   // ← THIS forces download
+
     btn.style.position = "fixed";
     btn.style.top = "20px";
     btn.style.right = "20px";
+    btn.style.zIndex = "1000";
+
     document.body.appendChild(btn);
   }
 });
