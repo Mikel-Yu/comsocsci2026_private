@@ -1,0 +1,8 @@
+/* Slightly widen the LEFT sidebar without breaking layout */
+#quarto-sidebar {
+  width: 270px !important;
+}
+
+main.content {
+  margin-left: 80px !important;
+}

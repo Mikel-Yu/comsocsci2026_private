@@ -1,0 +1,314 @@
+[
+  {
+    "objectID": "lectures/Week2.html",
+    "href": "lectures/Week2.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "In this lecture, we will continue to work on the data. As you may have already noticed from the previous class, working with real-world data is not easy! It involves taking one decision after another, to ensure that the results we obtain are reliable. My goal is for you to learn how to take these decisions on your own and understand the consequences that these choices may have on your analysis and results. Today, we will learn more about different data sources for Computational Social Science, and some of the challenges that they present.\nHere is the plan for the lecture.\n\nPart 1: We will learn the differences between different kinds of data sources. We will go through the theory, then I will ask you to reflect about what you have learned through an exercise.\nPart 2: In the second part of this class, I will introduce you to APIs. We will then use one API to continue our investigation of the field of Computational Social Science in a data-driven way."
+  },
+  {
+    "objectID": "lectures/Week2.html#today",
+    "href": "lectures/Week2.html#today",
+    "title": "Week 2",
+    "section": "",
+    "text": "In this lecture, we will continue to work on the data. As you may have already noticed from the previous class, working with real-world data is not easy! It involves taking one decision after another, to ensure that the results we obtain are reliable. My goal is for you to learn how to take these decisions on your own and understand the consequences that these choices may have on your analysis and results. Today, we will learn more about different data sources for Computational Social Science, and some of the challenges that they present.\nHere is the plan for the lecture.\n\nPart 1: We will learn the differences between different kinds of data sources. We will go through the theory, then I will ask you to reflect about what you have learned through an exercise.\nPart 2: In the second part of this class, I will introduce you to APIs. We will then use one API to continue our investigation of the field of Computational Social Science in a data-driven way."
+  },
+  {
+    "objectID": "lectures/Week2.html#part-1-data-sources-for-computational-social-science",
+    "href": "lectures/Week2.html#part-1-data-sources-for-computational-social-science",
+    "title": "Week 2",
+    "section": "Part 1: Data Sources for Computational Social Science",
+    "text": "Part 1: Data Sources for Computational Social Science\nWe have seen how DATA is central to Computational Social Science. But what data sources are we talking about? What are the limitations of different types of data sources? In the video below, I will give you an introduction to different types of data sources. As an example, I will introduce you to two studies that use two very different datasets to answer related questions.\n\nVideo lecture: Watch the video below about Data Sources in Computational Social Science\nOptional Reading: The Spread of Behavior in an Online Social Network Experiment. This is the article describing the first study I talk about in the video.\nOptional Reading: Exercise contagion in a global social network. This is the article describing the second study I talk about in the video.\n\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo(\"Hr5yKJaQUhE\",width=600, height=337.5)\n\n\n        \n        \n\n\nIn this course, we are going to focus mostly on observational data collected online to address social science questions. So, I would like us to reflect a little bit more on what it means to use Ready made data in the social science, and understand its advantages and challenges. This is something that you can read about in Sections 2.1 to 2.3 of the book Bit by Bit.\n\nReading: Bit by Bit, sections 2.1 to 2.3 Read sections 2.1 to 2.3. I don’t expect you to read all the details, but to have a general understanding of advantages and challenges of large observational datasets (a.k.a. Big Data/Ready made data) for social science research. If you have problems accessing the book, you can find a pdf version of the book here.\n\n\nExercise 1: Ready made data vs Custom made data In this exercise, I want to make sure you have understood they key points of my lecture and the reading. Remember to come and ask me, if you have any question about this!\n\nWhat are pros and cons of the custom-made data used in Centola’s experiment (the first study presented in the lecture) and the ready-made data used in Nicolaides’s study (the second study presented in the lecture)? You can support your arguments based on the content of the lecture and the information you read in Chapter 2.3 of the book.\nHow do you think these differences can influence the interpretation of the results in each study?"
+  },
+  {
+    "objectID": "lectures/Week2.html#part-2-using-apis-to-download-data",
+    "href": "lectures/Week2.html#part-2-using-apis-to-download-data",
+    "title": "Week 2",
+    "section": "Part 2: Using APIs to download data",
+    "text": "Part 2: Using APIs to download data\nIn this class, we will work with Ready made data. The second thing we will learn today is how to get data ready made data using APIs. We will do it using the Academic Graph API provided by Semantic Scholar. The Academic Graph API enables you to gather information on scientists and their publications.\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo(\"7AQO3vJptvg\",width=600, height=337.5)\n\n\n        \n        \n\n\n\nExercise 2: APIs for Computational Social Science research. In this excercise, I ask you to look for an API that one could use for Computational Social Science. Starting from your answers, I will compile a list of useful APIs, and share it with the class next week. It may come handy when you start working on your project. Note: the answers to the surveys on DTU Learn are not contributing to your final grade, but it is still important to fill them in, because they help me ensure that you are on track with the material.\n\nUse the web to look for one API that could be used for gathering interesting data (from a Computational Social Science perspective).\n\nData description: describe in a couple of lines the data types that you can gather using this API\nRate limits: What are the rate limits of the| free version of the API?\nLink to the API: Add the link to the API.\n\nGo on DTU Learn and fill in the survey Week 2 - APIs"
+  },
+  {
+    "objectID": "lectures/Week2.html#prelude-to-part-3-pandas-dataframes",
+    "href": "lectures/Week2.html#prelude-to-part-3-pandas-dataframes",
+    "title": "Week 2",
+    "section": "Prelude to part 3: Pandas Dataframes",
+    "text": "Prelude to part 3: Pandas Dataframes\nBefore starting, we will learn a bit about pandas dataframes, a very user-friendly data structure that you can use to manipulate tabular data. Pandas dataframes are built using numpy, which is in turn built in C, so they are a quite efficient data structure. You will find it quite useful :)\nPandas dataframes should be intuitive to use. I suggest you to go through the 10 minutes to Pandas tutorial to learn what you need to follow the rest of the course.\nVideo lecture: Watch the video below about Pandas, here is the notebook I used in the video\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo(\"pM7IKcyfOV4\",width=600, height=337.5)"
+  },
+  {
+    "objectID": "lectures/Week2.html#part-3-getting-data-on-computational-social-scientists-from-the-openalex-api",
+    "href": "lectures/Week2.html#part-3-getting-data-on-computational-social-scientists-from-the-openalex-api",
+    "title": "Week 2",
+    "section": "Part 3: Getting data on Computational Social Scientists from the OpenAlex API",
+    "text": "Part 3: Getting data on Computational Social Scientists from the OpenAlex API\nAll right, let’s dive in! We’re going to start collecting data on Computational Social Scientists and their work. As you will see, getting to the final dataset will take a few iterations and will require you to handle lots of data, but I’m confident you’ll find it rewarding in the end. To help you throughout, I’ve broken down the process into manageable steps and provided strategies to help you tackle each one effectively.\nFeel free to team up with a classmate or two for this project (remember, you’ll be submitting assignments as a group of three). If you run into any issues or have questions, don’t hesitate to ask me. Working with real-world data can be frustrating at times, but I’m here to help!\n\nExercise : Find potential Computational Social Scientists In this exercise, we’ll use the OpenAlex API to compile a list of researchers in the field of Computational Social Science, focusing on those who have attended the IC2S2 conference in 2024. This will not only later on help you understand the landscape of Computational Social Science research but also develop practical skills in data collection and analysis.\nPlease read the text of the whole exercise before starting to work on it.\nSteps\n\nRetreive data. Consider the set of unique researcher names that you collected in Week 1, Exercise 3. Use the authors endpoint of the OpenAlex API to search these researchers in the database based on their names. Loop through the list and, for each researcher in your list, find:\n\ntheir id: The OpenAlex ID for this author.\ntheir display_name: The name of the author as a single string.\ntheir works_api_url: A URL that will get you a list of all this author’s works.\ntheir h_index : The h-index for this author.\ntheir works_count: The number of Works this this author has created.\ntheir country_code: The country code of their last known institution\n\nData Storage Store this information in a Pandas DataFrame and save it to file.\n\nHandling Challenges\nWhile working on the steps above, you will face several challenges, such as missing names or multiple results for a single name. Here are some of the issues you may run into and a possible way to address them. Note: you may also find other ways to address these issues, which is ok. However, if you decide to use a different strategy, please come and talk to me first - Problem: an author is not found. A possible solution: you can discard that author. - Problem: you get more than one result for the same name. A possible solution: You can pick the name with the highest relevance. - Problem: None of the authors returned by the API has a name that is ``close enough’’ to the name you searched for. A possible solution: you can discard that author. - Problem: Your for loop keeps breaking due to unforseen errors. A possible solution: to prevent losing data due to errors, save your progress frequently.\nReflection Questions\nAnswer the following questions: - Did you encounter any challenges not listed here? How did you address them? - Choose one problem you faced while collecting the data and describe your solution. Why did you choose this approach, and what impact might it have on your data?\nRemember, if you’re unsure about any steps or encounter hurdles, please reach out."
+  },
+  {
+    "objectID": "lectures/Before_week_1.html",
+    "href": "lectures/Before_week_1.html",
+    "title": "How to take this class",
+    "section": "",
+    "text": "Welcome to the Computational Social Science course. This class probably works a little differently from other classes you’ve taken. To avoid any confusion, I’ve created this notebook to explain how everything works.\nEach week of this class is a Jupyter notebook like this one. In order to successfully follow the class, you simply start reading from the top, following the instructions. As you read, you will encounter three things that should cause you to take break from reading or sometimes leave the page for a little bit:\n\nInstructions to go check out a video lecture.\nInstructions to read something (I don’t use a single textbook, so will make sure to link to the relevant text).\nInstructions to solve a few exercises. Exercises should be solved within the Jupyter notebook. The exercises are the most important part of the class. First, it is through the exercises that you will learn the course material, and, secondly, the exercises lay the foundations for the two mandatory course assignment (due after week 4 and week 8).\n\nIn this first notebook, we just get started with some important info: - Part 1: Introductions. Here you get to know me, your teacher. - Part 2: How we do things. Here, you learn a bit about the philosophy behind this course. - Part 3: Tools. We talk about the tools we will use in this course.",
+    "crumbs": [
+      "Lectures",
+      "How to take this class"
+    ]
+  },
+  {
+    "objectID": "lectures/Before_week_1.html#part-1-introductions",
+    "href": "lectures/Before_week_1.html#part-1-introductions",
+    "title": "How to take this class",
+    "section": "Part 1: Introductions",
+    "text": "Part 1: Introductions\nLet’s start with some introductions. In the video below you will find out a little bit about me, the path that led me to study computational social science and what my research is about.\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo(\"J6_f-LDLgyY\",width=800, height=450)\n\n\n        \n        \n\n\nOptional reading material\nIf you are curious about Complex Systems Science (one of the topics I discussed in the video above), you can come and ask me and/or have a look at these websites:\nComplexity Explained A webpage offering a very concise explanation of the key concepts in complex systems science. As a bonus, the explanations come with powerful interactive visualizations. The website is developed by prominent researchers in Complex Systems science.\nComplexity Explorer This is an awesome platform developed by one of the most important institutions in the field. It offers courses, tutorials and lectures on complex systems science.\n\nYour turn.\nI would like to know a little bit about your expectations for this class and level of previous knowledge around some of the topics and technical aspects that we will work on throughout this class. Please go to DTU Learn and fill the self-assessment and expectations survey.\nThe survey is completely anonymous. It will just be a way for me to have an idea of who you are as a group.",
+    "crumbs": [
+      "Lectures",
+      "How to take this class"
+    ]
+  },
+  {
+    "objectID": "lectures/Before_week_1.html#part-2-how-we-do-things",
+    "href": "lectures/Before_week_1.html#part-2-how-we-do-things",
+    "title": "How to take this class",
+    "section": "Part 2: How we do things",
+    "text": "Part 2: How we do things\n\nVideo lecture: Start by watching the “How we do things” video below to learn the pedagogical aspects of how the class works.\n\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo(\"W5dqAukzjDc\",width=800, height=450)",
+    "crumbs": [
+      "Lectures",
+      "How to take this class"
+    ]
+  },
+  {
+    "objectID": "lectures/Before_week_1.html#part-3-tools-we-use-in-this-class",
+    "href": "lectures/Before_week_1.html#part-3-tools-we-use-in-this-class",
+    "title": "How to take this class",
+    "section": "Part 3: Tools we use in this class",
+    "text": "Part 3: Tools we use in this class\n\n1) Github for collaborative development\nIn this course, we will use Github to develop code collaboratively.\nHow to use Github for developing your Project Assignment It is required that you and your group use Github to work on your assignemnts. In all group assignments, you will be asked to submit a link to a Git repository in which the commit history of the individual members of the group can be assessed. This is for me to check how the group has collaboratively developed code for the assignment (see more in the course Wiki).\nIf you are not familiar with Git/Github, I suggest going through these two tutorials:\n\nIntro Git Tutorial\nIntermediate Git Tutorial\n\n\n\n2) Teams for communication\nIn this course, we will use Teams to communicate. You can join the Teams Channel directly from DTU Learn.\nHow to use Teams:\n\nAsking questions publicly: If you have a question that may be useful to others, please post it on a public channel, so that everyone can see the reply.\nAsking questions privately: If you have a question that is irrelevant to others, you can send a private message to me.\nDiscuss among you: Feel free of course use Teams to discuss with your team members, or the rest of the class.\n\nIMPORTANT: You can expect to receive an answer from me within a few days.\n\n\n3) Python and Jupyter notebooks\nThe exercise you will solve during the class require using Python and Jupyter Notebooks. I suggest to use the Anaconda distribution with Python 3.10 or newer. Note that if you want to use another setup, that’s fine.\nIf you are not familiary with Jupyter notebooks, you can follow these instructions:\n\nDownload the Anaconda distribution of Python here.\nCreate an Anaconda environment for this class: conda create -n comsocsci2026\nActivate the environment “conda activate comsocsci2026”.\nInstall jupyter “conda install jupyter”.\nStart up the notebook by typing “jupyter notebook” and your terminal, and everything should be ready to use in your favorite browser.\n\nSuper important Everything we do going forward in this class will depend on you being comfortable with Python. There is simply no way that you will be able to do well, if you’re also struggling with Python on top of everything else you’ll be learning.\nSo if you’re not 100% comfortable with Python, I recommend you follow a tutorial to teach you Python, for example this one, before proceeding.\n\n\n4) Large Language Models\n\n\nWe all use LLMs for learning and coding. In this course, I’ll try to give you practical tips on how to use LLMs in a way that can actually help you learn.\n\n\nThroughout the class, you will see exercises that end with a purple note containing suggestions on how you might experiment with LLMs while working on that problem.\n\n\nUsing LLMs in teaching is still evolving, and I’m actively exploring ways we can use them to support your learning in this course. Let me start by addressing some of the questions you might naturally have.\n\n\nDo we need to code ourselves when AI can already write code?\n\n\nYes, because coding is not just writing syntax, but rather designing solutions to problems.\n\n\nThat often means:\n\n\n\nTaking a big problem\n\n\nBreaking it into smaller parts\n\n\nBreaking those parts down again\n\n\nSolving each piece\n\n\nPutting everything back together into a working solution\n\n\n\nAlong the way, you make many decisions. And taking good decisions require deep understanding of the problem and the methods. That is understanding that one can only get from experience.\n\n\nMy goal in this course is to help you build that experience, so you become a better problem solver, not just someone who can run code.\n\n\nBut can LLMs just do all the above for me?\n\n\nSometimes, but it depends on the problem.\n\n\nFor small, well-defined tasks, LLMs are often excellent. If the task is “sort this array,” they’ll almost certainly give you a correct solution.\n\n\nBut as problems get more complex and open-ended, LLMs become less reliable on their own. They can struggle with:\n\n\n\nDeciding how to structure the problem\n\n\nChoosing the right steps\n\n\nChecking whether the full solution actually makes sense\n\n\n\nAnd this is why, as of today, we still need a smart human in the loop. \n\n\nLet’s take one of our class projects: building a collaboration network of computational social scientists from publication data. This is a complex, multi-step problem. It requires making many design choices and solving several subproblems in the right order.\n\n\nThis is why when I tried to give this problem directly to state-of-the-art LLMs, the solutions I got have many flaws.\n\n\nSo… can I use LLMs to solve exercises?\n\n\nYou shall make sure you use them in a smart and thoughtful way\n\n\nFor the best learning and deepest understanding, the most effective approach is to first try solving the exercise on your own. Struggling a bit, making mistakes, and figuring things out yourself is a crucial part of learning. Once you have your own solution you can use an LLM to review it, improve it, or suggest alternative approaches.\n\n\nThat said, I know that sometimes you may be short on time or feel stuck. If you do rely more heavily on an LLM, keep in mind that many exercises are complex enough that if you paste the entire problem into an LLM, the answer will likely be incomplete or incorrect.\n\n\nFor many coding tasks, a better way to use LLMs is to:\n\n\n\nFirst break the problem into smaller steps yourself\n\n\nThen use an LLM to help with specific “simple enough” subproblems\n\n\nCarefully check whether the final solution works and makes sense by understanding the code and verifying the output\n\n\nIterate and improve your solution\n\n\n\nIf you work this way, LLMs can be a powerful learning tool. If you don’t, they can easily become a shortcut that prevents you from developing the skills this course is designed to build, and introduce mistakes into your work.",
+    "crumbs": [
+      "Lectures",
+      "How to take this class"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "comsocsci2026",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "crumbs": [
+      "comsocsci2026"
+    ]
+  },
+  {
+    "objectID": "lectures/Admin.html",
+    "href": "lectures/Admin.html",
+    "title": "A couple of practical things",
+    "section": "",
+    "text": "Overview\nIn this course, we’re going to use a couple of ‘technologies’ in order to learn the material. One of the reasons why I do not rely entirely on DTU Learn is because I believe it is useful for you to familiarize with technologies that you may continue to use later on in your life. Below, you can find a couple of videos that explain how we will use these technologies.\n\nThe first tool is Github. You’ve already worked with this (in fact, you’re probably looking at this notebook file on the web), but in the video below, I provide some more examples.\nNext, we will use Python and Jupyter Notebooks. While you should be by now very familiar with it, please read carefully the instructions to make sure we all use the same Python version, etc…\nFinally, we do use DTU Learn for a couple of things.\n\n\n\nWhere to access the course material\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo(\"6RERvFwIat0\",width=800, height=450)\n\n\n        \n        \n\n\n\n\nGithub for collaborative development\nIn this course, we will use Github to develop code collaboratively.\nHow to use Github for developing your Project Assignment It is required that you and your group use Github to work on your assignemnts. In all group assignments, you will be asked to submit a link to a Git repository in which the commit history of the individual members of the group can be assessed. This is for me to check how the group has collaboratively developed code for the assignment (see more in the course Wiki).\nIf you are not familiar with Git/Github, I suggest going through these two tutorials: * Intro Git Tutorial * Intermediate Git Tutorial\n\n\nTeams to communicate with me\nIn this course, we will use Teams to communicate. Here are some info on how to use the Teams channel.\nHow to join the Teams channel: simply click on this invite\nHow to access the Teams channel: go to the webpage https://comsocsci2024.slack.com/\nHow to use Teams:\n\nAsking questions publicly: If you have a question that may be useful to others, please post it on a public channel, so that everyone can see the reply. I have created dedicated channels for each class (Week1, Week2, Week3) and for the assignments.\nAsking questions privately: If you have a question that is irrelevant to others, you can send a private message to me.\nDiscuss among you: Feel free of course use Slack to discuss with your team members, or the rest of the class.\n\nIMPORTANT: You can expect to receive an answer from me within a few days.\n\n\nPython\nThe exercise you will solve during the class require using Python and Jupyter Notebooks. I suggest to use the Anaconda distribution and Python&gt;3.10. Note that if you want to use another setup, that’s fine, but I cannot promise to help you with anything other than Anaconda.\nI suggest to follow these instructions for set up:\n\nDownload the Anaconda distribution of Python here.\nCreate an Anaconda environment for this class: conda create -n comsocsci2026\nActivate the environment “conda activate comsocsci2026”, start up the notebook by typing “jupyter notebook” and your terminal, and everything should be ready to use in your favorite browser.\nBe sure to check the keyboards shortcuts under the heading of “Help” where you will find for instance shortcut to code-completion (Tab) and tooltip with documentation (Shift-Tab) which will save you a ton of time.\n\nSuper important Everything we do going forward in this class will depend on you being comfortable with Python. There is simply no way that you will be able to do well, if you’re also struggling with Python on top of everything else you’ll be learning.\nSo if you’re not 100% comfortable with Python, I recommend you follow a tutorial to teach you Python, for example this one, before proceeding.\n\n\nDTU Learn to form groups and submit exercises\nI use DTU Learn for a couple of things, mostly for you to hand in materials (e.g. surveys, assignments, etc)\nYou can find the page for our course here\nDTU Learn"
+  },
+  {
+    "objectID": "lectures/Week1.html",
+    "href": "lectures/Week1.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "This first lecture will go over a few different topics to get you started:\n\nPart 1: You picked this course in Computational Social Science but… What does that even mean?? The first thing we will do today is to learn a bit more about it by reading some chapters of the book and listen to a short lecture by me.\nPart 2: In the second part of this class, I will introduce you to a topic we will work on for the rest of this course and I will ask you to reflect upon it.\nPart 3: In the final part of this class, we will start working on something hands on. We will use Web scraping to gather some data.",
+    "crumbs": [
+      "Lectures",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "lectures/Week1.html#overview",
+    "href": "lectures/Week1.html#overview",
+    "title": "Week 1",
+    "section": "",
+    "text": "This first lecture will go over a few different topics to get you started:\n\nPart 1: You picked this course in Computational Social Science but… What does that even mean?? The first thing we will do today is to learn a bit more about it by reading some chapters of the book and listen to a short lecture by me.\nPart 2: In the second part of this class, I will introduce you to a topic we will work on for the rest of this course and I will ask you to reflect upon it.\nPart 3: In the final part of this class, we will start working on something hands on. We will use Web scraping to gather some data.",
+    "crumbs": [
+      "Lectures",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "lectures/Week1.html#today",
+    "href": "lectures/Week1.html#today",
+    "title": "Week 1",
+    "section": "Today",
+    "text": "Today\nThis first lecture will go over a few different topics to get you started:\n\nPart 1: You picked this course in Computational Social Science but… What does that even mean?? The first thing we will do today is to learn a bit more about it by reading some chapters of the book and listen to a short lecture by me.\nPart 2: In the second part of this class, I will introduce you to a topic we will work on for the rest of this course and I will ask you to reflect upon it.\nPart 3: In the final part of this class, we will start working on something hands on. We will use Web scraping to gather some data.",
+    "crumbs": [
+      "Lectures",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "lectures/Week1.html#part-1-intro-to-computational-social-science",
+    "href": "lectures/Week1.html#part-1-intro-to-computational-social-science",
+    "title": "Week 1",
+    "section": "Part 1: Intro to Computational Social Science",
+    "text": "Part 1: Intro to Computational Social Science\nWhat is Computational Social Science? In the video below, I will give you some answers. There will be a little bit of history, example of topics and datasets, an overview of the methods, and some reflections on the challenges faced by researchers, including in relation to Ethics and Privacy.\n\nVideo lecture: Watch the video below about Computational Social Science\n\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo(\"3dA1GYdSg-A\",width=600, height=337.5)\n\n\n        \n        \n\n\nIn this course, we are going to read some parts of the amazing book by Matthew Salganik “Bit By Bit: Social Research in the Digital Age”. Salganik is a professor in Sociology at Princeton, and an active researcher in Computational Social Science. You can read the book online, but I encourage you to buy it.\n\nReading: Bit by Bit, chapter 1 Start by reading the Introduction of the book, where you will get you an understanding of the history of the field and the general framework.\nReading 2: Bit by Bit, chapter 6 Read the Ethics chapter of the book. Here, I don’t expect you to read all the details. However, I want to make sure you get an overall understanding of the ethical challenges and some of the approaches that are used in the field to deal with these complex issues. You can focus on sections 6.4 and 6.6.\n\n\nExercise 1: Design your own Computational Social Science project.\nYou now have a sense of how digital data can be used to study society. Work in pairs.\n\nStart from an interesting social science question. Come up with one question about human behavior or society that you find interesting. Examples:\n\nHow does misinformation spread online?\n\nHow does working from home reshape when and where people spend time?\nWhat makes certain neighborhoods feel safer than others?\n\nMake it “computational”. Briefly write:\n\nWhat kind of digital data could help study this? (e.g., social media data, news, reviews, …) Important: Your data source must be something you could realistically access as a student (e.g., public datasets, open APIs, or data you could collect yourself)\nWho/what are the units of analysis? (people, neighborhoods, communities, …)\nOne measurable variable you could extract from data to answer your question.\n\nEthics check.\n\nName one ethical risk and how you might reduce it. You can refer to the areas of difficulties described in chapter 6.6 of Salganik’s book.\n\nSubmit. On DTU Learn, submit your best idea through the Survey “Design your own Computational Social Science project.”:\n\nResearch question\n\nData source\n\nUnit of analysis\nOne measurable variable\n\nOne ethical concern.\n\n\nIMPORTANT: Reach out during class/on Teams if you have doubts about the feasibility of your idea, or whether your research question makes sense.\n\n\n\nFor this exercise, I strongly recommend that you first develop your research question and basic idea without using an LLM. Once you feel you have a solid research idea and a dataset, you can use an LLM to refine and improve your solution. Why not start with an LLM? Because:\n\n\n\nAt the time of writing this exercise, even when prompted carefully, state-of-the-art LLMs (I tested ChatGPT 5.2) can suggest ideas that sound impressive but are not feasible\n\n\nBy spending time srtuggling with problems yourself, you build deeper understanding (which means you get also better at spotting weaknesses/feasibility issues)",
+    "crumbs": [
+      "Lectures",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "lectures/Week1.html#part-2-a-topic-we-will-work-on-for-the-rest-of-this-course",
+    "href": "lectures/Week1.html#part-2-a-topic-we-will-work-on-for-the-rest-of-this-course",
+    "title": "Week 1",
+    "section": "Part 2 : A topic we will work on for the rest of this course",
+    "text": "Part 2 : A topic we will work on for the rest of this course\nAll right so, as I promised this course will be very hands-on. We will learn some of the methods and modelling approaches used in Computational Social Science and we will put this learning into practice. The way we will do it is that we will apply the methods we learn to study a specific topic throughout the rest of this course.\nIn this video, I will explain to you what the whole project will be about. Ready? Watch the video below!\n\nVideo lecture: Watch the video below\n\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo(\"uEJltY5Pv1U\",width=600, height=337.5)\n\n\n        \n        \n\n\n\nExercise 2 : Understanding Computational Social Science in a data-driven way\nIn the rest of this course, we will do a meta-study on the field of Computational Social Science, by analyzing researchers, their collaborations, and their scientific production.\nWork in pairs. Think of one type of data you could collect to study the field (for example: publications, co-authorship networks, conference participation, social media presence, or research topics).\nFor this one dataset, briefly answer:\n\nWhat is the data source?\n\nWhat would this data help us understand about the field?\n\nHow would you practically collect it? (e.g., API, open dataset, scraping).\n\nWhat is one limitation or bias of this data?\n\nGo to DTU Learn and fill the Survey “Data for Computational Social Science”.\n\nRemember that in this exercise, there is not a single correct answer. There could be multiple ways to gather data, and different data sources could shed lights on different aspects of scientists’ works and interactions.\n\n\n\nAs in the previous exercise, I recommend starting with your own idea. It can be fun to then using an LLM to refine or stress-test it. For example, you could ask an LLM whether there are feasibility issues you may have missed.",
+    "crumbs": [
+      "Lectures",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "lectures/Week1.html#prelude-to-part-3-basic-html",
+    "href": "lectures/Week1.html#prelude-to-part-3-basic-html",
+    "title": "Week 1",
+    "section": "Prelude to part 3: Basic HTML",
+    "text": "Prelude to part 3: Basic HTML\nIn the final part of this class, we will talk about web-scraping. For web-scraping, you need a little bit of knowledge about the structure of web-pages. The standard way to write web-bages is to use a language called HTML.\nUseful tutorial: If you are not familiar with HTML, I recommend reading this tutorial.\nUseful resource: HTML pages are built in a hierarchical structure and are composed of elements such as tables, titles, paragraphs, sections, etc. A complete list of HTML elements can be found here.",
+    "crumbs": [
+      "Lectures",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "lectures/Week1.html#part-3-using-web-scraping-to-gather-data.",
+    "href": "lectures/Week1.html#part-3-using-web-scraping-to-gather-data.",
+    "title": "Week 1",
+    "section": "Part 3: Using web-scraping to gather data.",
+    "text": "Part 3: Using web-scraping to gather data.\nAll right, so now it’s really time to start working on something a bit hands-on. The first thing we need to do is indeed to get DATA. As I said a few times by now, in this class we will do things from scratch. One of the ways to gather data from the web is to use web-scraping, which basically means getting information directly from web-pages. In the video below, I will give a brief overview on how to web-scrape web pages.\n\nVideo lecture: Watch the video below about web scraping (you can find here the notebook that I use in the video)\n\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo(\"nK_d0UQp4cE\",width=600, height=337.5)\n\n\n        \n        \n\n\n\nExercise 3 : Web-scraping the list of participants to the International Conference in Computational Social Science\nIt’s time to put things into practice. Remember that our goal will be to gather a dataset describing Computational Social Scientists and their work. As we have discussed, the field of Computational Social Science is loosely defined. To gather data, we will start from the list of researchers that have joined the most important scientific conference in Computational Social Science in 2025. The conference is called International Conference in Computational Social Science (IC2S2 in short). The assumption here is that the scientists who contribute to this conference are at the core of the field of Computational Social Science.\nYou can find the program of the 2025 edition of the conference at this link, and the list of organizers at this link. The conference program included many different contributions: keynote presentations, parallel talks, tutorials, posters.\n\nInspect the HTML of the two pages and use web-scraping to get the names of all researchers that contributed to the conference in 2025. The goal is the following:\n\nget as many names as possible including: organizers, keynote speakers, chairs, authors of parallel talks and authors of posters;\n\nensure that the collected names are complete and accuarate as reported in the website (e.g. both first name and family name);\n\nensure that no name is repeated multiple times with slightly different spelling.\n\nSome ideas you can apply for success:\n\nInspect the page through your web browser to identify the elements of the page that you want to collect. Ensure you understand the hierarchical structure of the page, and where the elements you are interested in are located within this structure.\nUse the BeautifulSoup Python package to navigate through the hierarchy and extract the elements you need from the page.\nYou can use the find_all method to find elements that match specific filters. Check the documentation of the library for detailed explanations on how to set filters.\nParse the strings to ensure that you retrieve “clean” author names (e.g. remove commas, or other unwanted charachters).\nIn some cases, the webpage only displays data that is actually loaded from an external file (for example a CSV or JSON file). If you notice this by inspecting the page, you may be able to download that file directly instead of scraping the HTML. This is much easier, cleaner, and less error-prone than parsing the rendered page.\n\nCreate the set of unique researchers that joined the conference and store it into a file.\n\nImportant: If you notice any issue with the list of names you have collected (e.g. duplicate/incorrect names), come up with a strategy to clean your list as much as possible.\n\nGo to DTU Learn and fill the Survey “Web Scraping”.\nHow many unique researchers do you get?\nExplain the process you followed to web-scrape the pages. Which choices did you make to accurately retreive as many names as possible? Which strategies did you use to assess the quality of your final list? Explain your reasoning and your choices.\n\n\n\n\nLLMs will likely not be able to solve this exercise correctly on their own (I tested GPT-5.2). The key is to break the problem into smaller subproblems by inspecting the HTML of the pages and identifying exactly which elements you need to extract. If you feel lazy, you can use an LLM to help write small, targeted functions for specific extraction steps. But make sure you carefully check the code and the output of each step. Iterate on your solution until the results are correct and complete.",
+    "crumbs": [
+      "Lectures",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "lectures/Before_week_1.html#overview",
+    "href": "lectures/Before_week_1.html#overview",
+    "title": "How to take this class",
+    "section": "",
+    "text": "Welcome to the Computational Social Science course. This class probably works a little differently from other classes you’ve taken. To avoid any confusion, I’ve created this notebook to explain how everything works.\nEach week of this class is a Jupyter notebook like this one. In order to successfully follow the class, you simply start reading from the top, following the instructions. As you read, you will encounter three things that should cause you to take break from reading or sometimes leave the page for a little bit:\n\nInstructions to go check out a video lecture.\nInstructions to read something (I don’t use a single textbook, so will make sure to link to the relevant text).\nInstructions to solve a few exercises. Exercises should be solved within the Jupyter notebook. The exercises are the most important part of the class. First, it is through the exercises that you will learn the course material, and, secondly, the exercises lay the foundations for the two mandatory course assignment (due after week 4 and week 8).\n\nIn this first notebook, we just get started with some important info: - Part 1: Introductions. Here you get to know me, your teacher. - Part 2: How we do things. Here, you learn a bit about the philosophy behind this course. - Part 3: Tools. We talk about the tools we will use in this course.",
+    "crumbs": [
+      "Lectures",
+      "How to take this class"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Schedule.html",
+    "href": "wiki_pages/Schedule.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nActivity\nDetails\nMonth\nWeekday\n\n\n\n\nFeb 4\nLecture 1\nIntro to Computational Social Science\nFeb\nWed\n\n\nFeb 11\nLecture 2\nData 1: Gathering Data\nFeb\nWed\n\n\nFeb 18\nLecture 3\nData 2: Distributions in Empirical Data\nFeb\nWed\n\n\nFeb 25\nLecture 4\n\nFeb\nWed\n\n\nMar 3\nAssignment 1\nAssignment Due\nMar\nTue\n\n\nMar 4\nLecture 5\n\nMar\nWed\n\n\nMar 11\nLecture 6\n\nMar\nWed\n\n\nMar 18\nLecture 7\n\nMar\nWed\n\n\nMar 25\nLecture 8\n\nMar\nWed\n\n\nApr 1\nEaster Break\nEaster Break\nApr\nWed\n\n\nApr 7\nAssignment 2\nAssignment Due\nApr\nTue\n\n\nApr 8\nProject Assignment A\nIndependent Preparation Work\nApr\nWed\n\n\nApr 15\nProject Assignment A\nIndependent Preparation Work\nApr\nWed\n\n\nApr 21\nProject Assignment A\nAssignment Due\nApr\nTue\n\n\nApr 22\nLecture 9\nPresentations\nApr\nWed\n\n\nApr 29\nProject Assignment B\nIndependent Preparation Work\nApr\nWed\n\n\nMay 15\nProject Assignment B\nAssignment Due\nMay\nFri",
+    "crumbs": [
+      "Wiki",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Groups.html",
+    "href": "wiki_pages/Groups.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\n\nGroups\n\nAssignments are submitted in groups\n\nGroups should have 3 people\n\nYou should be in the same group for the whole semester\n\nPlease form your group within the first few weeks\n\nYou’ll sign up via DTU Learn\n\nEveryone in the group should understand all parts of the assignment. Each of you should all be able to explain and solve each exercise. If something is unclear, talk it through with your group or ask me, otherwise you’re missing part of the point of the course.\nYou can work in a group of 2, but all reports are graded the same way regardless of group size, so smaller groups should expect a bit more work.",
+    "crumbs": [
+      "Wiki",
+      "<a name=\"groups\"></a>Groups"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Books.html",
+    "href": "wiki_pages/Books.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\nFor this course, we only use books that you can access for free on line. But I encourage you to get the books and support the authors - that’s how we’ll keep getting new, awesome textbooks. Books are listed in the order we use them.\n\nOn Computational Social Science\nBit by Bit, by Matthew J. Salganik\n\n\nOn Data Visualization\nScientific Visualization: Python + Matplotlib, by Nicolas P. Rougier (this is a technical book, we will use it very little, but I encourage you to check it out if you are into beautiful visualisations)\n\n\nOn Network Science\nNetwork Science, by Albert-Laszlo Barabasi.\n\n\nOn Natural Language Processing.\nNatural Language Processing with Python - Analyzing Text with the Natural Language Toolkit, by Steven Bird, Ewan Klein, and Edward Loper.",
+    "crumbs": [
+      "Wiki",
+      "Books"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Assignments.html",
+    "href": "wiki_pages/Assignments.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\n\nTimeline\nAssignment 1.\nPosted: During Lecture 4\nDue: Tuesday, Mar 3rd, 23:59\nAssignment 2.\nPosted: During Lecture 8\nDue: Tuesday, Apr 7th, 23:59\nProject Assignment A\nSlides Due: Tuesday, Apr 21st, 23:59\nPresentation: Wednesday, Apr 22nd (in class)\nProject Assignment B\nDue: Friday, May 15th, 23:59\n\n\nAssignments 1 and 2\nThe lectures in this class run over 8 weeks. Each week, we will post a number of exercises. After a set of lectures, I will post an assignment. The assignment is a subset of the exercises. This means that, if you solve the exercises each week, the assignments will be easy.\n\nFormalia regarding Assignments 1 & 2\n\nCreate a repository on GitHub or GitLab, where we can assess the commit history of the individual members of the group. The repository should stay private until the assignment is due.\nCollaboratively work on the assignment as a group.\nThe repo should include a Jupyter notebook (named Assignment1.ipynb or Assignment2.ipynb) that includes the solution to all exercises in the assignment.\nImportant: The first cell of the notebook should include the link to your Github repository and a contribution statement.\nFor the delivery:\n\nmake your repository public (on the day of the assignment submission)\n\nupload the Jupyter notebook on DTU Learn\n\nmake sure that your code runs and renders all images, prints, etc. We recommend restarting the kernel under ‘Kernel’ and then clicking Cell –&gt; Run all before uploading.\n\ndouble check that your file renders correctly. Remember that you’ll be annoyed to get bad evaluations because no-one could see your plots.\n\nTo help me navigate the Notebook, it’s a good idea to repeat the question you’re answering.\nTry to control the length of your notebook. While grading, I look at how you prioritise material and express yourself clearly and succinctly.\nRead the text carefully - make sure you understand the question. And make sure that you answer all sub-questions, etc. (It’s easy to miss something, so be thorough).\nDo not solve all exercises in a single code cell. Split your code according to the questions\nThe notebook is designed to contain your code, so do include it. But do keep it short & neat (minimize long outputs, etc)\nFormat your plots properly. Axes must be labeled, make sure there’s text explaining the figure, etc.\nMake sure that you use references when they’re needed and follow academic standards.\nBe precise, write in objective language (avoid: “I think …”, “In my opinion…”, etc) - if you make an observation, support it with data.\n\n\n\n\nProject Assignment\nThe point of the Project Assignments is to try out the skills you’ve learned in the course on your own dataset. We’ve been working on understanding networks and natural language processing, so the idea is to find a dataset to analyze that will let you show off what you can do.\n\nStandford Large Networks Dataset Collection is a collection of large network datasets.\nWikipedia API You can collect Wikipedia data for whatever you are into.\nYou can also use data from specialized wikis (examples include Wookiepedia, Game of Thrones Wiki, Simpson’s Wiki, etc)\nNetzschleuder. Another collection of Network Datasets.\nSocial Networks Awesome datasets. Another collection of public social network datasets.\n\nAnd new ideas for datasets are very welcome. You should work with something that interests you - that way the project will be much more fun to work on. You will be working together in groups just as for the first two assignments.\n\nProject Assignment A\nThe first part of the final project is a 5 minute presentation, which should explain the central idea/concept that you will investigate in your final project. You’re making the presentation so that I can give you feedback, and you can get ideas from other groups. The presentation must contain the following:\n\nAn explanation of the central idea behind your project (what is the idea?, why is it interesting? which datasets did you need to explore the idea?, how did you download them)\nAn outline on the elements you’ll need to get to your goal & the implementation plan.\nA walk-through of your preliminary data-analysis, addressing\n\nWhat is the total size of your data? (MB, number of rows, number of variables, etc)\nWhat is the network you will be analyzing? (number of nodes? number of links?, degree distributions, what are node attributes?, etc.)\nWhat is the text you will be analyzing?\nHow will you tie the two together?\n\n\nBut other than that, there are no constraints on the format. Note that you will present to the entire class.\nHanding in the assignment: Simply upload your slides on DTU Learn. Note that since Project Assignment A now requires significant data-work, you have 2 weeks to create the video presentation.\n\n\nProject Assignment B\nThe deliverables for the Final project will be\nA website. The website should contain your analysis, it should tell the story about the data that you’re interested in getting across. The website should not be technical, but rather aim at using visualization and explanation to get your insights across to a non-scientific reader.\nAn explainer Notebook. The Notebook should contain all the behind the scenes stuff, details on the dataset, why you’ve selected this particular dataset, explanations of your choices regarding network analysis, etc. You should link to the notebook from the site. The idea is that you can create much more complex, fun and interactive analysis (and visualizations) on line. So the website is a way for you to present your work in a way that everyone can understand it … including dynamic visualizations, interactive analysis, etc, etc … that would not work on a piece of paper.\n\n\nMore about the website\nThis part of the assignment is quite free. The main point of the website is to present your idea/analyses to the world in a way that showcases your use of what you’ve learned in class. It can be as simple as an old fashioned static web-page, and as complicated as you want it to be. Let your creativity run wild (but keep in mind that this is not a coding class - we care mostly about content and analysis).\nThe website should be self-contained and tell the story of your dataset without the need for the Explainer Notebook (the purpose of the notebook is to provide additional details for interested readers). Here are some requirements\n\nThe page should say clearly what the dataset is and give the reader some idea of its most important properties (kind of Project Assignment A-style).\nThe page should contain your network and text analysis (that’s the main part).\nThere should be download options for data sets (so the user can play around).\nYou must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to a notebook displaying on the nbviewer.\nFor hosting, I recommend using your DTU website or Github pages.\n\n\n\nMore on the explainer notebook\nThe notebook should contain your analysis and code. Please structure it into the following 4 sections\n\nMotivation\n\nWhat is your dataset?\nWhy did you choose this/these particular dataset(s)?\nWhat was your goal for the end user’s experience?\n\nBasic stats. Let’s understand the dataset better\n\nWrite about your choices in data cleaning and preprocessing\nWrite a short section that discusses the dataset stats (here you can recycle the work you did for Project Assignment A)\n\nTools, theory and analysis. Describe the process of theory to insight\n\nTalk about how you’ve worked with text, including regular expressions, unicode, etc.\nDescribe which network science tools and data analysis strategies you’ve used, how those network science measures work, and why the tools you’ve chosen are right for the problem you’re solving.\nHow did you use the tools to understand your dataset?\n\nDiscussion. Think critically about your creation\n\nWhat went well?\nWhat is still missing? What could be improved? Why?",
+    "crumbs": [
+      "Wiki",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Evaluation.html",
+    "href": "wiki_pages/Evaluation.html",
+    "title": "",
+    "section": "",
+    "text": "Code",
+    "crumbs": [
+      "Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Evaluation.html#how-your-work-is-evaluated",
+    "href": "wiki_pages/Evaluation.html#how-your-work-is-evaluated",
+    "title": "",
+    "section": "How Your Work Is Evaluated",
+    "text": "How Your Work Is Evaluated\nThe final grade is an evaluation of your work in the entire course.\n\n50% comes from Assignments 1 and 2\n\n50% comes from the Final Project (Assignments A and B)",
+    "crumbs": [
+      "Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Evaluation.html#feedback-scale",
+    "href": "wiki_pages/Evaluation.html#feedback-scale",
+    "title": "",
+    "section": "Feedback Scale",
+    "text": "Feedback Scale\nThe grade comes together from the numerical evaluation of each sub-assignment. The meaning of the numbers is:\n\n\n\n\n\n\n\nScore\nMeaning\n\n\n\n\n0\nInsufficient: minimum requirements not met\n\n\n1\nSufficient: meets minimum course criteria\n\n\n2\nGood: solid work with clear understanding and correct application\n\n\n3\nExcellent: high-quality work demonstrating depth, rigor, and clarity\n\n\n\nThese numbers are intended as feedback. There is no trivial mapping between the standard danish grading scale and the feedback provided as part of the class.",
+    "crumbs": [
+      "Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Evaluation.html#evaluation-criteria",
+    "href": "wiki_pages/Evaluation.html#evaluation-criteria",
+    "title": "",
+    "section": "Evaluation Criteria",
+    "text": "Evaluation Criteria\n\nAssignments 1 & 2\nGrades are based on:\n\nCorrectness and completeness of each exercise\nQuality of the notebook (clear structure, well-documented code, clear explanations of results)\n\n\n\nFinal Project (Assignments A & B)\nThe project grade reflects both technical quality and communication quality.\n\n1. Project design\nWe look at whether the project makes sense as a whole. - Is the motivation clear and meaningful? - Is the dataset suitable for the question being asked? - Do the methods and conclusions actually answer the research question?\n\n\n2. Explainer notebook\nYour notebook should make it easy to understand what you did and why. - Is data collection and preprocessing clearly documented? - Are the methods explained in a way others can follow? - Is there real interpretation and reflection, not just outputs? - Is the notebook well structured and readable?\n\n\n3. Use of Network Science\nWe evaluate how well you use network science tools - Are the chosen techniques appropriate for the question? - Are they applied correctly? - Is the analysis thorough, rather than just a few basic measures?\n\n\n4. Use of text analysis methods\nSame idea for the text analysis. - Are the methods suitable for the problem? - Are they implemented correctly? - Is the analysis deep enough to support your conclusions?\n\n\n5. Website\nYour project should be understandable to someone outside the course. - Are the visualizations informative and well chosen? - Are explanations clear and accessible to a broad audience? - Is the website easy to navigate and pleasant to use?\n\n\n6. What makes a project excellent:\nThese additional aspects can lift a project from solid to outstanding: - Creativity and original thinking\n- Taking on a challenging or ambitious question/dataset - Showing awareness of ethical issues (data use, bias, privacy, limitations)",
+    "crumbs": [
+      "Wiki",
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Home.html",
+    "href": "wiki_pages/Home.html",
+    "title": "",
+    "section": "",
+    "text": "Code",
+    "crumbs": [
+      "Wiki",
+      "Intro"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Home.html#intro",
+    "href": "wiki_pages/Home.html#intro",
+    "title": "",
+    "section": "Intro",
+    "text": "Intro\nWelcome to the wiki for the course Computational Social Science (02467) offered by the Technical University of Denmark. This is the main page, where you can access the weekly exercises. If you take a look in the side-bar, you can read about the administrative details (including the course overview), assignments, books, and more.\nThe class is taught flipped classroom style, where the the lecture and homework elements of a course are reversed. You’ll be able to view short video lectures during the class session, so in-class time can be devoted to exercises, projects, or discussions. Check out the Before Week 1 lecture to learn more.",
+    "crumbs": [
+      "Wiki",
+      "Intro"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Home.html#lectures",
+    "href": "wiki_pages/Home.html#lectures",
+    "title": "",
+    "section": "Lectures",
+    "text": "Lectures\nBefore week 1. Take a look at this page before you do anything. This class most likely works a little bit differently from other classes you’ve taken. The notebook explains pretty much everything - the rest will be explained during the lectures. In case the link doesn’t work, you can also see the file here on Github, but the videos won’t display properly\nWeek 1: Intro to Computational Social Science. This week is all about getting started: learning about how the course works, make sure you master the tools you need to follow the class. I will give you an introduction to the field of Computational Social Science. And, we will start with something hands-on: you will learn about web-scraping and start gathering some data from the web.\n\nReading: Bit by Bit, chapter 1 Start by reading the Introduction of the book, where you will get you an understanding of the history of the field and the general framework.\nReading: Bit by Bit, chapter 6 Read the Ethics chapter of the book. Here, I don’t expect you to read all the details. However, I want to make sure you get an overall understanding of the ethical challenges and some of the approaches that are used in the field to deal with these complex issues. You can focus on sections 6.4 and 6.6.",
+    "crumbs": [
+      "Wiki",
+      "Intro"
+    ]
+  }
+]
