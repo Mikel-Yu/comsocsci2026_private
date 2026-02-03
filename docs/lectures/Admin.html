@@ -115,7 +115,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar docked fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -385,20 +385,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#where-to-access-the-course-material" id="toc-where-to-access-the-course-material" class="nav-link" data-scroll-target="#where-to-access-the-course-material">Where to access the course material</a></li>
-  <li><a href="#github-for-collaborative-development" id="toc-github-for-collaborative-development" class="nav-link" data-scroll-target="#github-for-collaborative-development">Github for collaborative development</a></li>
-  <li><a href="#teams-to-communicate-with-me" id="toc-teams-to-communicate-with-me" class="nav-link" data-scroll-target="#teams-to-communicate-with-me">Teams to communicate with me</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
-  <li><a href="#dtu-learn-to-form-groups-and-submit-exercises" id="toc-dtu-learn-to-form-groups-and-submit-exercises" class="nav-link" data-scroll-target="#dtu-learn-to-form-groups-and-submit-exercises">DTU Learn to form groups and submit exercises</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -485,6 +472,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const path = window.location.pathname;
+  if (path.endsWith(".html")) {
+    const ipynb = path.replace(".html", ".ipynb");
+    const btn = document.createElement("a");
+    btn.href = ipynb;
+    btn.textContent = "⬇️ Download Notebook";
+    btn.className = "btn btn-primary";
+    btn.style.position = "fixed";
+    btn.style.top = "20px";
+    btn.style.right = "20px";
+    document.body.appendChild(btn);
+  }
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
