@@ -1,5 +1,38 @@
 [
   {
+    "objectID": "wiki_pages/Schedule.html",
+    "href": "wiki_pages/Schedule.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nActivity\nDetails\nMonth\nWeekday\n\n\n\n\nFeb 4\nLecture 1\nIntro to Computational Social Science\nFeb\nWed\n\n\nFeb 11\nLecture 2\nData 1: Gathering Data\nFeb\nWed\n\n\nFeb 18\nLecture 3\nData 2: Distributions in Empirical Data\nFeb\nWed\n\n\nFeb 25\nLecture 4\n\nFeb\nWed\n\n\nMar 3\nAssignment 1\nAssignment Due\nMar\nTue\n\n\nMar 4\nLecture 5\n\nMar\nWed\n\n\nMar 11\nLecture 6\n\nMar\nWed\n\n\nMar 18\nLecture 7\n\nMar\nWed\n\n\nMar 25\nLecture 8\n\nMar\nWed\n\n\nApr 1\nEaster Break\nEaster Break\nApr\nWed\n\n\nApr 7\nAssignment 2\nAssignment Due\nApr\nTue\n\n\nApr 8\nProject Assignment A\nIndependent Preparation Work\nApr\nWed\n\n\nApr 15\nProject Assignment A\nIndependent Preparation Work\nApr\nWed\n\n\nApr 21\nProject Assignment A\nAssignment Due\nApr\nTue\n\n\nApr 22\nLecture 9\nPresentations\nApr\nWed\n\n\nApr 29\nProject Assignment B\nIndependent Preparation Work\nApr\nWed\n\n\nMay 15\nProject Assignment B\nAssignment Due\nMay\nFri",
+    "crumbs": [
+      "Wiki",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Groups.html",
+    "href": "wiki_pages/Groups.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\n\nGroups\n\nAssignments are submitted in groups\n\nGroups should have 3 people\n\nYou should be in the same group for the whole semester\n\nPlease form your group within the first few weeks\n\nYou’ll sign up via DTU Learn\n\nEveryone in the group should understand all parts of the assignment. Each of you should all be able to explain and solve each exercise. If something is unclear, talk it through with your group or ask me, otherwise you’re missing part of the point of the course.\nYou can work in a group of 2, but all reports are graded the same way regardless of group size, so smaller groups should expect a bit more work.",
+    "crumbs": [
+      "Wiki",
+      "Groups"
+    ]
+  },
+  {
+    "objectID": "wiki_pages/Books.html",
+    "href": "wiki_pages/Books.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\nFor this course, we only use books that you can access for free on line. But I encourage you to get the books and support the authors - that’s how we’ll keep getting new, awesome textbooks. Books are listed in the order we use them.\n\nOn Computational Social Science\nBit by Bit, by Matthew J. Salganik\n\n\nOn Data Visualization\nScientific Visualization: Python + Matplotlib, by Nicolas P. Rougier (this is a technical book, we will use it very little, but I encourage you to check it out if you are into beautiful visualisations)\n\n\nOn Network Science\nNetwork Science, by Albert-Laszlo Barabasi.\n\n\nOn Natural Language Processing.\nNatural Language Processing with Python - Analyzing Text with the Natural Language Toolkit, by Steven Bird, Ewan Klein, and Edward Loper.",
+    "crumbs": [
+      "Wiki",
+      "Books"
+    ]
+  },
+  {
     "objectID": "lectures/Week2.html",
     "href": "lectures/Week2.html",
     "title": "Week 2",
@@ -53,6 +86,17 @@
     ]
   },
   {
+    "objectID": "lectures/Before_week_1.html#overview",
+    "href": "lectures/Before_week_1.html#overview",
+    "title": "How to take this class",
+    "section": "",
+    "text": "Welcome to the Computational Social Science course. This class probably works a little differently from other classes you’ve taken. To avoid any confusion, I’ve created this notebook to explain how everything works.\nEach week of this class is a Jupyter notebook like this one. In order to successfully follow the class, you simply start reading from the top, following the instructions. As you read, you will encounter three things that should cause you to take break from reading or sometimes leave the page for a little bit:\n\nInstructions to go check out a video lecture.\nInstructions to read something (I don’t use a single textbook, so will make sure to link to the relevant text).\nInstructions to solve a few exercises. Exercises should be solved within the Jupyter notebook. The exercises are the most important part of the class. First, it is through the exercises that you will learn the course material, and, secondly, the exercises lay the foundations for the two mandatory course assignment (due after week 4 and week 8).\n\nIn this first notebook, we just get started with some important info: - Part 1: Introductions. Here you get to know me, your teacher. - Part 2: How we do things. Here, you learn a bit about the philosophy behind this course. - Part 3: Tools. We talk about the tools we will use in this course.",
+    "crumbs": [
+      "Lectures",
+      "How to take this class"
+    ]
+  },
+  {
     "objectID": "lectures/Before_week_1.html#part-1-introductions",
     "href": "lectures/Before_week_1.html#part-1-introductions",
     "title": "How to take this class",
@@ -86,16 +130,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "comsocsci2026",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
-    "crumbs": [
-      "comsocsci2026"
-    ]
-  },
-  {
     "objectID": "lectures/Admin.html",
     "href": "lectures/Admin.html",
     "title": "A couple of practical things",
@@ -119,17 +153,6 @@
     "title": "Week 1",
     "section": "",
     "text": "This first lecture will go over a few different topics to get you started:\n\nPart 1: You picked this course in Computational Social Science but… What does that even mean?? The first thing we will do today is to learn a bit more about it by reading some chapters of the book and listen to a short lecture by me.\nPart 2: In the second part of this class, I will introduce you to a topic we will work on for the rest of this course and I will ask you to reflect upon it.\nPart 3: In the final part of this class, we will start working on something hands on. We will use Web scraping to gather some data.",
-    "crumbs": [
-      "Lectures",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "lectures/Week1.html#today",
-    "href": "lectures/Week1.html#today",
-    "title": "Week 1",
-    "section": "Today",
-    "text": "Today\nThis first lecture will go over a few different topics to get you started:\n\nPart 1: You picked this course in Computational Social Science but… What does that even mean?? The first thing we will do today is to learn a bit more about it by reading some chapters of the book and listen to a short lecture by me.\nPart 2: In the second part of this class, I will introduce you to a topic we will work on for the rest of this course and I will ask you to reflect upon it.\nPart 3: In the final part of this class, we will start working on something hands on. We will use Web scraping to gather some data.",
     "crumbs": [
       "Lectures",
       "Week 1"
@@ -177,50 +200,6 @@
     "crumbs": [
       "Lectures",
       "Week 1"
-    ]
-  },
-  {
-    "objectID": "lectures/Before_week_1.html#overview",
-    "href": "lectures/Before_week_1.html#overview",
-    "title": "How to take this class",
-    "section": "",
-    "text": "Welcome to the Computational Social Science course. This class probably works a little differently from other classes you’ve taken. To avoid any confusion, I’ve created this notebook to explain how everything works.\nEach week of this class is a Jupyter notebook like this one. In order to successfully follow the class, you simply start reading from the top, following the instructions. As you read, you will encounter three things that should cause you to take break from reading or sometimes leave the page for a little bit:\n\nInstructions to go check out a video lecture.\nInstructions to read something (I don’t use a single textbook, so will make sure to link to the relevant text).\nInstructions to solve a few exercises. Exercises should be solved within the Jupyter notebook. The exercises are the most important part of the class. First, it is through the exercises that you will learn the course material, and, secondly, the exercises lay the foundations for the two mandatory course assignment (due after week 4 and week 8).\n\nIn this first notebook, we just get started with some important info: - Part 1: Introductions. Here you get to know me, your teacher. - Part 2: How we do things. Here, you learn a bit about the philosophy behind this course. - Part 3: Tools. We talk about the tools we will use in this course.",
-    "crumbs": [
-      "Lectures",
-      "How to take this class"
-    ]
-  },
-  {
-    "objectID": "wiki_pages/Schedule.html",
-    "href": "wiki_pages/Schedule.html",
-    "title": "",
-    "section": "",
-    "text": "Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nActivity\nDetails\nMonth\nWeekday\n\n\n\n\nFeb 4\nLecture 1\nIntro to Computational Social Science\nFeb\nWed\n\n\nFeb 11\nLecture 2\nData 1: Gathering Data\nFeb\nWed\n\n\nFeb 18\nLecture 3\nData 2: Distributions in Empirical Data\nFeb\nWed\n\n\nFeb 25\nLecture 4\n\nFeb\nWed\n\n\nMar 3\nAssignment 1\nAssignment Due\nMar\nTue\n\n\nMar 4\nLecture 5\n\nMar\nWed\n\n\nMar 11\nLecture 6\n\nMar\nWed\n\n\nMar 18\nLecture 7\n\nMar\nWed\n\n\nMar 25\nLecture 8\n\nMar\nWed\n\n\nApr 1\nEaster Break\nEaster Break\nApr\nWed\n\n\nApr 7\nAssignment 2\nAssignment Due\nApr\nTue\n\n\nApr 8\nProject Assignment A\nIndependent Preparation Work\nApr\nWed\n\n\nApr 15\nProject Assignment A\nIndependent Preparation Work\nApr\nWed\n\n\nApr 21\nProject Assignment A\nAssignment Due\nApr\nTue\n\n\nApr 22\nLecture 9\nPresentations\nApr\nWed\n\n\nApr 29\nProject Assignment B\nIndependent Preparation Work\nApr\nWed\n\n\nMay 15\nProject Assignment B\nAssignment Due\nMay\nFri",
-    "crumbs": [
-      "Wiki",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "wiki_pages/Groups.html",
-    "href": "wiki_pages/Groups.html",
-    "title": "",
-    "section": "",
-    "text": "Code\n\n\n\n\n\n\nGroups\n\nAssignments are submitted in groups\n\nGroups should have 3 people\n\nYou should be in the same group for the whole semester\n\nPlease form your group within the first few weeks\n\nYou’ll sign up via DTU Learn\n\nEveryone in the group should understand all parts of the assignment. Each of you should all be able to explain and solve each exercise. If something is unclear, talk it through with your group or ask me, otherwise you’re missing part of the point of the course.\nYou can work in a group of 2, but all reports are graded the same way regardless of group size, so smaller groups should expect a bit more work.",
-    "crumbs": [
-      "Wiki",
-      "<a name=\"groups\"></a>Groups"
-    ]
-  },
-  {
-    "objectID": "wiki_pages/Books.html",
-    "href": "wiki_pages/Books.html",
-    "title": "",
-    "section": "",
-    "text": "Code\n\n\n\n\n\nFor this course, we only use books that you can access for free on line. But I encourage you to get the books and support the authors - that’s how we’ll keep getting new, awesome textbooks. Books are listed in the order we use them.\n\nOn Computational Social Science\nBit by Bit, by Matthew J. Salganik\n\n\nOn Data Visualization\nScientific Visualization: Python + Matplotlib, by Nicolas P. Rougier (this is a technical book, we will use it very little, but I encourage you to check it out if you are into beautiful visualisations)\n\n\nOn Network Science\nNetwork Science, by Albert-Laszlo Barabasi.\n\n\nOn Natural Language Processing.\nNatural Language Processing with Python - Analyzing Text with the Natural Language Toolkit, by Steven Bird, Ewan Klein, and Edward Loper.",
-    "crumbs": [
-      "Wiki",
-      "Books"
     ]
   },
   {
@@ -283,32 +262,20 @@
     "href": "wiki_pages/Home.html",
     "title": "",
     "section": "",
-    "text": "Code",
-    "crumbs": [
-      "Wiki",
-      "Intro"
-    ]
+    "text": "Code"
   },
   {
     "objectID": "wiki_pages/Home.html#intro",
     "href": "wiki_pages/Home.html#intro",
     "title": "",
     "section": "Intro",
-    "text": "Intro\nWelcome to the wiki for the course Computational Social Science (02467) offered by the Technical University of Denmark. This is the main page, where you can access the weekly exercises. If you take a look in the side-bar, you can read about the administrative details (including the course overview), assignments, books, and more.\nThe class is taught flipped classroom style, where the the lecture and homework elements of a course are reversed. You’ll be able to view short video lectures during the class session, so in-class time can be devoted to exercises, projects, or discussions. Check out the Before Week 1 lecture to learn more.",
-    "crumbs": [
-      "Wiki",
-      "Intro"
-    ]
+    "text": "Intro\nWelcome to the wiki for the course Computational Social Science (02467) offered by the Technical University of Denmark. This is the main page, where you can access the weekly exercises. If you take a look in the side-bar, you can read about the administrative details (including the course overview), assignments, books, and more.\nThe class is taught flipped classroom style, where the the lecture and homework elements of a course are reversed. You’ll be able to view short video lectures during the class session, so in-class time can be devoted to exercises, projects, or discussions. Check out the Before Week 1 lecture to learn more."
   },
   {
     "objectID": "wiki_pages/Home.html#lectures",
     "href": "wiki_pages/Home.html#lectures",
     "title": "",
     "section": "Lectures",
-    "text": "Lectures\nBefore week 1. Take a look at this page before you do anything. This class most likely works a little bit differently from other classes you’ve taken. The notebook explains pretty much everything - the rest will be explained during the lectures. In case the link doesn’t work, you can also see the file here on Github, but the videos won’t display properly\nWeek 1: Intro to Computational Social Science. This week is all about getting started: learning about how the course works, make sure you master the tools you need to follow the class. I will give you an introduction to the field of Computational Social Science. And, we will start with something hands-on: you will learn about web-scraping and start gathering some data from the web.\n\nReading: Bit by Bit, chapter 1 Start by reading the Introduction of the book, where you will get you an understanding of the history of the field and the general framework.\nReading: Bit by Bit, chapter 6 Read the Ethics chapter of the book. Here, I don’t expect you to read all the details. However, I want to make sure you get an overall understanding of the ethical challenges and some of the approaches that are used in the field to deal with these complex issues. You can focus on sections 6.4 and 6.6.",
-    "crumbs": [
-      "Wiki",
-      "Intro"
-    ]
+    "text": "Lectures\nBefore week 1. Take a look at this page before you do anything. This class most likely works a little bit differently from other classes you’ve taken. The notebook explains pretty much everything - the rest will be explained during the lectures. In case the link doesn’t work, you can also see the file here on Github, but the videos won’t display properly\nWeek 1: Intro to Computational Social Science. This week is all about getting started: learning about how the course works, make sure you master the tools you need to follow the class. I will give you an introduction to the field of Computational Social Science. And, we will start with something hands-on: you will learn about web-scraping and start gathering some data from the web.\n\nReading: Bit by Bit, chapter 1 Start by reading the Introduction of the book, where you will get you an understanding of the history of the field and the general framework.\nReading: Bit by Bit, chapter 6 Read the Ethics chapter of the book. Here, I don’t expect you to read all the details. However, I want to make sure you get an overall understanding of the ethical challenges and some of the approaches that are used in the field to deal with these complex issues. You can focus on sections 6.4 and 6.6."
   }
 ]
