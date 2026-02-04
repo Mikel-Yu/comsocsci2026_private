@@ -286,9 +286,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Computational Social Science 2026
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lectures/Before_week_1.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/Week2.html">Week 2</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -335,6 +333,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="sidebar-item-container"> 
   <a href="../lectures/Week1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Week2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Week 2</span></a>
   </div>
 </li>
       </ul>
@@ -390,7 +394,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lectures/Before_week_1.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/Week2.html">Week 2</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Week 2</h1>
 </div>
@@ -411,7 +415,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="today" class="level2">
 <h2 class="anchored" data-anchor-id="today">Today</h2>
-<p>In this lecture, we will continue to work on the data. As you may have already noticed from the previous class, working with real-world data is not easy! It involves taking one decision after another, to ensure that the results we obtain are reliable. My goal is for you to learn how to take these decisions on your own and understand the consequences that these choices may have on your analysis and results. Today, we will learn more about different data sources for Computational Social Science, and some of the challenges that they present.</p>
+<p>In this lecture, we will continue to work on the data. As you may have already noticed from the previous class, working with real-world data is not easy! Today, we will learn more about different data sources for Computational Social Science, and some of the challenges that they present.</p>
 <p>Here is the plan for the lecture.</p>
 <ul>
 <li><p><strong>Part 1:</strong> We will learn the differences between <strong>different kinds of data sources</strong>. We will go through the theory, then I will ask you to reflect about what you have learned through an exercise.</p></li>
@@ -422,7 +426,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="part-1-data-sources-for-computational-social-science">Part 1: Data Sources for Computational Social Science</h2>
 <p>We have seen how <strong>DATA</strong> is central to Computational Social Science. But what data sources are we talking about? What are the limitations of different types of data sources? In the video below, I will give you an introduction to different types of data sources. As an example, I will introduce you to two studies that use two very different datasets to answer related questions.</p>
 <blockquote class="blockquote">
-<p><strong><em>Video lecture</em></strong>: Watch the video below about Data Sources in Computational Social Science</p>
+<p><strong><em>Video lecture</em></strong>: Watch the video below about Data Sources in Computational Social Science.</p>
 <p><em>Optional Reading: <a href="https://www.science.org/doi/full/10.1126/science.1185231">The Spread of Behavior in an Online Social Network Experiment.</a></em> This is the article describing the first study I talk about in the video.<br>
 <em>Optional Reading: <a href="https://www.nature.com/articles/ncomms14753">Exercise contagion in a global social network.</a></em> This is the article describing the second study I talk about in the video.</p>
 </blockquote>
@@ -442,7 +446,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <blockquote class="blockquote">
 <p><strong>Exercise 1: Ready made data vs Custom made data</strong> In this exercise, I want to make sure you have understood they key points of my lecture and the reading. Remember to come and ask me, if you have any question about this!</p>
 <ol type="1">
-<li>What are pros and cons of the custom-made data used in Centola’s experiment (the first study presented in the lecture) and the ready-made data used in Nicolaides’s study (the second study presented in the lecture)? You can support your arguments based on the content of the lecture and the information you read in Chapter 2.3 of the book.</li>
+<li>What are pros and cons of the custom-made data used in Centola’s experiment (the first study presented in the lecture) and the ready-made data used in Nicolaides’s study (the second study presented in the lecture)? You can support your arguments based on the content of the lecture and the information you read in Chapter 2.3 of the book.<br>
+</li>
 <li>How do you think these differences can influence the interpretation of the results in each study?</li>
 </ol>
 </blockquote>
@@ -460,15 +465,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <blockquote class="blockquote">
-<p><strong>Exercise 2: APIs for Computational Social Science research.</strong> In this excercise, I ask you to look for an API that one could use for Computational Social Science. Starting from your answers, I will compile a list of useful APIs, and share it with the class next week. It may come handy when you start working on your project. <em>Note: the answers to the surveys on DTU Learn are not contributing to your final grade, but it is still important to fill them in, because they help me ensure that you are on track with the material.</em></p>
+<p><strong>Exercise 2: APIs for Computational Social Science research.</strong> In this excercise, I ask you to look for an API that one could use for Computational Social Science. Starting from your answers, I will compile a list of useful APIs, and share it with the class next week. It may come handy when you start working on your project.<br>
+<em>Note: the answers to the surveys on DTU Learn are not contributing to your final grade, but it is still important to fill them in, because they help me ensure that you are on track with the material.</em>.</p>
 <ul>
 <li>Use the web to look for one API that could be used for gathering interesting data (from a Computational Social Science perspective).
 <ul>
-<li><em>Data description</em>: describe in a couple of lines the data types that you can gather using this API</li>
-<li><em>Rate limits</em>: What are the rate limits of the| free version of the API?</li>
-<li><em>Link to the API</em>: Add the link to the API.</li>
+<li><em>Data description</em>: describe in a couple of lines the data types that you can gather using this API.<br>
+</li>
+<li><em>Rate limits</em>: What are the rate limits of the| free version of the API?<br>
+</li>
+<li><em>Link to the API</em>: Add the link to the API.<br>
+</li>
 </ul></li>
-<li>Go on DTU Learn and fill in the survey <em><a href="https://learn.inside.dtu.dk/d2l/lms/survey/user/surveys_list.d2l?ou=187754">Week 2 - APIs</a></em></li>
+<li>Go on DTU Learn and fill in the survey <em><a href="https://learn.inside.dtu.dk/d2l/lms/survey/admin/surveys_manage.d2l?ou=296278">Week 2 - APIs</a></em>.</li>
 </ul>
 </blockquote>
 </section>
@@ -476,7 +485,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="prelude-to-part-3-pandas-dataframes">Prelude to part 3: Pandas Dataframes</h2>
 <p>Before starting, we will learn a bit about <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html">pandas dataframes</a>, a very user-friendly data structure that you can use to manipulate tabular data. Pandas dataframes are built using numpy, which is in turn built in C, so they are a quite efficient data structure. You will find it quite useful :)</p>
 <p>Pandas dataframes should be intuitive to use. <strong>I suggest you to go through the <a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html">10 minutes to Pandas tutorial</a> to learn what you need to follow the rest of the course.</strong></p>
-<p><strong><em>Video lecture</em></strong>: Watch the video below about Pandas, <a href="https://nbviewer.org/github/lalessan/comsocsci2024/blob/main/additional_notebooks/Pandas.ipynb">here is the notebook I used in the video</a></p>
+<p><strong><em>Video lecture</em></strong>: Watch the video below about Pandas, <a href="https://nbviewer.org/github/lalessan/comsocsci2026/blob/master/additional_notebooks/Pandas.ipynb">here is the notebook I used in the video</a></p>
 <div id="cell-13" class="cell" data-execution_count="9">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> YouTubeVideo</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>YouTubeVideo(<span class="st">"pM7IKcyfOV4"</span>,width<span class="op">=</span><span class="dv">600</span>, height<span class="op">=</span><span class="fl">337.5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -490,9 +499,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="part-3-getting-data-on-computational-social-scientists-from-the-openalex-api" class="level2">
 <h2 class="anchored" data-anchor-id="part-3-getting-data-on-computational-social-scientists-from-the-openalex-api">Part 3: Getting data on Computational Social Scientists from the OpenAlex API</h2>
 <p>All right, let’s dive in! We’re going to start collecting data on Computational Social Scientists and their work. As you will see, getting to the final dataset will take a few iterations and will require you to handle lots of data, but I’m confident you’ll find it rewarding in the end. To help you throughout, I’ve broken down the process into manageable steps and provided strategies to help you tackle each one effectively.</p>
-<p>Feel free to team up with a classmate or two for this project (remember, you’ll be submitting assignments as a group of three). If you run into any issues or have questions, don’t hesitate to ask me. Working with real-world data can be frustrating at times, but I’m here to help!</p>
+<p>Feel free to team up with a classmate or two for this project (remember, you’ll be submitting assignments as a group of three). If you run into any issues or have questions, don’t hesitate to ask me. Working with real-world data can be frustrating at times. I’m here to help!</p>
 <blockquote class="blockquote">
-<p><strong>Exercise : Find potential Computational Social Scientists</strong> In this exercise, we’ll use the OpenAlex API to compile a list of researchers in the field of Computational Social Science, focusing on those who have attended the IC2S2 conference in 2024. This will not only later on help you understand the landscape of Computational Social Science research but also develop practical skills in data collection and analysis.</p>
+<p><strong>Exercise : Find potential Computational Social Scientists</strong> In this exercise, we’ll use the OpenAlex API to compile a list of researchers in the field of Computational Social Science, focusing on those who have attended the IC2S2 conference in 2025. This will not only later on help you understand the landscape of Computational Social Science research but also develop practical skills in data collection and analysis.</p>
 <p>Please read the text of the whole exercise before starting to work on it.</p>
 <p><strong>Steps</strong></p>
 <ol type="1">
@@ -508,13 +517,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Data Storage</strong> Store this information in a Pandas DataFrame and save it to file.</li>
 </ol>
 <p><strong>Handling Challenges</strong></p>
-<p>While working on the steps above, you will face several challenges, such as missing names or multiple results for a single name. Here are some of the issues you may run into and a possible way to address them. <em>Note: you may also find other ways to address these issues, which is ok. However, if you decide to use a different strategy, please come and talk to me first</em> - <em>Problem:</em> an author is not found. <em>A possible solution:</em> you can discard that author. - <em>Problem:</em> you get more than one result for the same name. <em>A possible solution:</em> You can pick the name with the highest relevance. - <em>Problem:</em> None of the authors returned by the API has a name that is ``close enough’’ to the name you searched for. <em>A possible solution:</em> you can discard that author. - <em>Problem:</em> Your for loop keeps breaking due to unforseen errors. <em>A possible solution:</em> to prevent losing data due to errors, save your progress frequently.</p>
-<p><strong>Reflection Questions</strong></p>
-<p>Answer the following questions: - Did you encounter any challenges not listed here? How did you address them? - Choose one problem you faced while collecting the data and describe your solution. Why did you choose this approach, and what impact might it have on your data?</p>
-<p>Remember, if you’re unsure about any steps or encounter hurdles, please reach out.</p>
+<p>I expect that, while working on the steps above, you will encounter several obstacles. As you complete this exercise, you are expected to:</p>
+<ul>
+<li>Identify problems that arise.<br>
+</li>
+<li>Improve your solutions to address such problems, making reasonable decisions when data is incomplete or ambiguous.</li>
+</ul>
+<p><strong>Reflection Questions</strong> Answer the following questions:</p>
+<ul>
+<li>Which challenges did you encounter? How did you address them?</li>
+<li>Choose one problem you faced while collecting the data and describe your solution. Why did you choose this approach, and what impact might it have on your data?</li>
+</ul>
+<p>Remember, if you’re unsure about any steps or encounter problems, please reach out.</p>
 </blockquote>
+<div style="
+  border:1px solid #5b2ca0;
+  border-radius:10px;
+  margin:20px 0;
+  background:#ede0ff;
+  padding:22px;
+  color:#2b003d;
+  line-height:1.6;
+  max-width:100%;
+  box-sizing:border-box;
+  overflow-wrap:break-word;
+">
+<p>
+</p><p>To learn how to use an API, avoid relying on LLMs that may generate long code you don’t fully understand. Start by making a single API request, inspect the response carefully, and try a few different names to discover potential issues and address them.<br>
+Once you’re satisfied with your approach, run it for all authors. If you like, after your code works, you can ask an LLM for suggestions on how to improve efficiency.</p>
+<p></p>
 
 
+</div>
 </section>
 
 </main> <!-- /main -->
