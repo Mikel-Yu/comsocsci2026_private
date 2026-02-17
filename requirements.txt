@@ -1,0 +1,6 @@
+pandas
+requests
+time
+unicodedata
+re
+io
