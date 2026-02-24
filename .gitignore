@@ -6,3 +6,8 @@ my_notebooks
 slides_and_videos
 syllabus
 solutions
+
+# Large lecture datasets (never commit)
+lectures/*.csv
+lectures/*.parquet
+lectures/*all_works_raw.json
