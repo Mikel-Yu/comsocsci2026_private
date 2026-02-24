@@ -11,3 +11,4 @@ solutions
 lectures/*.csv
 lectures/*.parquet
 lectures/*all_works_raw.json
+lectures/css_network.json
