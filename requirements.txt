@@ -4,3 +4,5 @@ time
 unicodedata
 re
 io
+networkx
+netwulf
