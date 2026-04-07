@@ -6,3 +6,4 @@ re
 io
 networkx
 netwulf
+wordcloud

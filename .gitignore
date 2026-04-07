@@ -12,3 +12,5 @@ lectures/*.csv
 lectures/*.parquet
 lectures/*all_works_raw.json
 lectures/css_network.json
+
+assignments/week7_abstracts_tokenized.json
